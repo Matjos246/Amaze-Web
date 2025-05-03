@@ -1,0 +1,113 @@
+.container{
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+}
+
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  .Title h2{
+    text-align: center;
+    font-size: 50px;
+    color: black;
+    
+  }
+  .Title h2:hover{
+    color: cadetblue;
+  }
+  .Details{
+    width: 100%;
+    padding: 20px;
+    
+    /* border: 1px solid #333; */
+    /* background-color: rgba(0, 0, 0, 0.5);  */
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    white-space: normal;
+  }
+  .Details p{
+    text-align: center;
+    color: black;
+    word-spacing: 10px;
+    }
+  .info p{
+    /* border: 1px solid #333; */
+    color: white;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    white-space: normal;
+  }
+  
+  .partA{
+    padding-left: 60px;
+    width: 150em;
+  }
+  .partA h3{
+    align-items: center;
+  }
+  .partA p{
+    width: 50%;
+    padding-right: 20px;
+  }
+  .partA h3{
+    color: white;
+  }
+  .partB{
+    padding-left: 50px;
+    text-decoration: none;
+    list-style: none;
+    width:95%;
+  }
+  .partB h3{
+    color: white; 
+  }
+  .partB,
+    .info li a{
+      text-decoration: none;
+      list-style: none;  
+  }
+  .partB p{
+    /* width: 80%; */
+    letter-spacing: 2px;
+  }
+  .partC{
+    padding-right: 30px;
+    text-decoration: none;
+    list-style: none;
+  }
+  .partD{
+    padding-right: 60px;
+  }
+  .info{
+   font-size:larger;
+  }
+  .info a{
+    color: white;
+  }
+  .Footie{
+    display: flex;
+   
+    text-decoration: none;
+     background-color: rgba(0, 0, 0, 0.5);
+     color: white; 
+     /* width:100%; */
+  }
+  .Footie h3{
+    font-size: 20px;
+    /* padding-bottom: 10px; */
+  }
+  .Footie h3:hover{
+    color: rgb(180, 137, 137);
+  }
+
+  .Footie, .info{
+    font-size: 15px;
+  }
+  .Media a{
+  }
+  
+  

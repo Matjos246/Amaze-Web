@@ -4,21 +4,27 @@
     padding: 0;
     font-family: 'Segoe UI', sans-serif;
   }
-  
   body {
     background: #f4f4f4;
     color: #333;
   }
-  
   .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #222;
+    background: #20426e;
     color: white;
     padding: 20px;
+    position: absolute;
+    width: 100%;
   }
-  
+  .nav2{
+    /* height: 100px; */
+   
+    padding-top: 98px;
+    padding-bottom: 30px;
+
+}
   .navbar a {
     color: white;
     text-decoration: none;
@@ -95,26 +101,39 @@
     margin: 0 10px;
     cursor: pointer;
   }
-  
-  .service-carousel {
+   .about {
+    width: 100%;
+   overflow-wrap: break-word;
+   /* white-space: normal; */
+    padding: 20px;
+    color: #f4f4f4;
+    background-image:url(./wallPOP.jpg);
+    padding-left: 130px;
+
+   
+  }
+  .about h2{
     text-align: center;
-    padding: 20px;
   }
   
-  .service-card {
-    background: white;
+
+  .details{
+    /* max-width: 100%;
+    max-height: 100%; */
     padding: 20px;
-    margin: 10px;
+    
+    /* border: 1px solid #333; */
+    background-color: rgba(0, 0, 0, 0.5); 
+
+    
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    white-space: normal;
+    /* background-image: url(./WallPOP2.jpg); */
   }
-  
-  .service-card img {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-  }
-  #Slide1{
-    width: 100%;
-    height: 50vh;
+  .details h2:hover{
+    text-decoration: underline;
+    /* color: cadetblue; */
   }
   
   footer {
@@ -122,5 +141,96 @@
     color: white;
     text-align: center;
     padding: 20px;
+  }
+  .Title h2{
+    text-align: center;
+    font-size: 50px;
+    color: black;
+    
+  }
+  .Title h2:hover{
+    color: cadetblue;
+  }
+  .Details{
+    width: 100%;
+    padding: 20px;
+    
+    /* border: 1px solid #333; */
+    /* background-color: rgba(0, 0, 0, 0.5);  */
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    white-space: normal;
+  }
+  .Details p{
+    text-align: center;
+    color: black;
+    word-spacing: 10px;
+    }
+
+  .info p{
+   
+    /* border: 1px solid #333; */
+    color: white;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    white-space: normal;
+  }
+  
+  .partA{
+    padding-left: 70px;
+  }
+  .partA h3{
+    align-items: center;
+  }
+  .partA p{
+    width: 70%;
+    padding-right: 20px;
+  }
+  .partA h3{
+    color: white;
+  }
+  .partB{
+    padding-right: 80px;
+    text-decoration: none;
+    list-style: none;
+  }
+  .partB h3{
+    color: white; 
+  }
+  .partB,
+    .info li a{
+      text-decoration: none;
+      list-style: none;
+      padding-top: ;
+  
+      
+  }
+
+  .partC{
+    padding-left: 27px;
+    text-decoration: none;
+    list-style: none;
+  }
+  .partD{
+    padding-left: 40px;
+  }
+  .info{
+   font-size:large;
+  }
+  .info a{
+    color: white;
+  }
+  .Footie{
+    display: flex;
+    padding:35px 60px;
+    text-decoration: none;
+     background-color: rgba(0, 0, 0, 0.5);
+     color: white; 
+  }
+  .Footie h3{
+    font-size: 22px;
+  }
+  .Footie, .info{
+    font-size: 15px;
   }
   
