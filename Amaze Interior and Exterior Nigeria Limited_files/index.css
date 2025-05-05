@@ -51,13 +51,8 @@
    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
     font-style: italic;
-    font-size: 30px;
+    font-size: 20px;
    color:rgba(100,70, 100, 050) ; 
-  }
-
-  button{
-    border-radius: 20%;
-    bo
   }
   
   .carousel {
