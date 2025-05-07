@@ -31,3 +31,7 @@ function prevSlide(type) {
 
 // Auto-play hero carousel
 setInterval(() => nextSlide('hero'), 5000);
+
+
+
+

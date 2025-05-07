@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI', sans-serif;
+    
   }
   body {
     background: #f4f4f4;
@@ -56,10 +57,13 @@
   }
 
   button{
-    border-radius: 20%;
-    bo
+    border-radius: 10%;
+   
+
   }
-  
+  html {
+    scroll-behavior: smooth;
+  }
   .carousel {
     position: relative;
     overflow: hidden;
@@ -198,7 +202,7 @@
   }
   
   .partA{
-    padding-left: 70px;
+    /* padding-left: 70px; */
   }
   .partA h3{
     align-items: center;
@@ -228,12 +232,12 @@
   }
 
   .partC{
-    padding-left: 27px;
+    /* padding-left: 27px; */
     text-decoration: none;
     list-style: none;
   }
   .partD{
-    padding-left: 40px;
+    /* padding-left: 40px; */
   }
   .info{
    font-size:large;
@@ -243,6 +247,7 @@
   }
   .Footie{
     display: flex;
+    /* justify-content: center; */
     padding:35px 60px;
     text-decoration: none;
      background-color: rgba(0, 0, 0, 0.5);
