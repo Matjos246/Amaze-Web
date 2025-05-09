@@ -44,27 +44,22 @@ footer {
     overflow-wrap: break-word;
     word-wrap: break-word;
     white-space: normal;
+    font-size: medium;
   }
-  
   .partA{
-    padding-left: 60px;
-    /* width: 150em; */
+    width: 50em;
   }
   .partA h3{
     align-items: center;
-  }
-  .partA p{
-    /* width: 50%; */
-    /* padding-right: 20px; */
   }
   .partA h3{
     color: white;
   }
   .partB{
-    padding-left: 50px;
+    /* padding-left: 100px; */
     text-decoration: none;
     list-style: none;
-    /* width:95%; */
+    width:40em;
   }
   .partB h3{
     color: white; 
@@ -74,17 +69,23 @@ footer {
       text-decoration: none;
       list-style: none;  
   }
-  .partB p{
-    /* width: 80%; */
+  .partB,
+  .info li a:hover{
+    text-decoration: ;
+}
+  /* .partB p{
+    width: 80%;
     letter-spacing: 2px;
-  }
+    width: 5em;
+  } */
   .partC{
-    /* padding-right: 30px; */
+    
     text-decoration: none;
     list-style: none;
+    width: 20em;
   }
   .partD{
-    /* padding-right: 60px; */
+    width: 20em;
   }
   .info{
    font-size:larger;
@@ -134,15 +135,22 @@ footer {
      /* align-content: center; */
   }
   .Footie h3{
-    font-size: 20px;
+    font-size: 25px;
     /* padding-bottom: 10px; */
   }
+ 
+  
   .Footie h3:hover{
     color: rgb(180, 137, 137);
   }
 
   .Footie, .info{
     font-size: 15px;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+    /* margin: 5px; */
+    padding: 5px;
+    /* align-content: center; */
   }
   .Media a{
   }

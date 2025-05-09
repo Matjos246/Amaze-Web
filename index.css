@@ -209,7 +209,7 @@
   }
   .partA p{
     width: 70%;
-    padding-right: 20px;
+    /* padding-right: 20px; */
   }
   .partA h3{
     color: white;
@@ -256,7 +256,4 @@
   .Footie h3{
     font-size: 22px;
   }
-  .Footie, .info{
-    font-size: 15px;
-  }
-  
+ 
